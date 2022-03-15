@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px
+}
+header {
+    width:100%;
+    height:100px;
+}
+
+.gray-container {
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 80px;
+}
+
+.parallax {
+    background-image: url(Images/parallaximg1.jpg);
+    height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    margin-top: 80px;
+    border: none;
+    padding: 15px;
+    background-color: #ffcc33;
+    border-radius: 10px;
+}
+
+.parallax-interior {
+    background-image: url(Images/dum8.jpg);
+    height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-art {
+    background-image: url(Images/12.jpg);
+    height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-input {
+    width: 700px;
+    margin-bottom: 30px;
+    height: 50px;
+    border: none;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid gray;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+textarea {
+    border: none;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid gray;
+    max-width: 700px;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.yellow {
+    background-color: #ffcc33;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    float: right;
+    margin-left: 70px;
+    font-size: 20px;
+    margin-top: 5px
+}
+  
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    color: black;
+}
+  
+.navigation a:hover {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+.mywork {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.header-img {
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.service-flex-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-left: -100px;
+    list-style: none;
+}
+
+footer .flex-container {
+    justify-content: center;
+}
+
+.flex-item {
+    width: 360px;
+    margin-top: 15px;
+}
+
+.flex-item-long {
+    width: 360px;
+    line-height: 400px;
+    margin-top: 15px;
+}
+
+.item-left {
+    margin-left: 15px;
+}
+
+.item-right {
+    margin-right: 15px
+}
+
+ul#menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: #828586;
+}
+
+ul a {
+    color: #FFD700;
+}
+
+#current {
+    color: #FFD700;
+}
+
+.logo {
+    margin: 5px;
+    width: 150px;
+    float: left;
+    margin-left: 30px;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+footer .logo {
+    margin-top: 15px;
+}
+
+.image {
+    width: 360px;
+}
+
+.service-image {
+    width: 500px;
+}
+
+.service-text {
+    font-size: 20px;
+    margin-left: 200px; 
+    margin-bottom: 70px;
+}
+
+p {
+    font-size: 20px;
+}
+
+@media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+}
+  
+@media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: row wrap;
+      padding: 0;
+      margin-left: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+    .header li {
+        float: none;
+        display: flex;
+        text-align: left;
+    }
+    header .logo {
+        float: none;
+        margin-left: 162.5px;
+        width: 50px;
+    }
+    footer .logo {
+        float: none;
+        margin-left: 40px;
+        width: 150px;
+    }
+    .header-img {
+        display: none;
+    }
+    .service-image {
+        width: 300px;
+        margin-left: 75px;
+    }
+    .image {
+        width: 340px;
+    }
+    .text-input {
+        width: 350px;
+    }
+    textarea {
+        width: 350px;
+    }
+    header {
+        margin-bottom: 50px;
+    }
+    .parallax {
+        height: 200px;
+        background-position: bottom;
+    }
+    .parallax-art {
+        height: 200px;
+    }
+    .parallax-interior {
+        height: 200px;
+    }
+}
+
+
+
+
+

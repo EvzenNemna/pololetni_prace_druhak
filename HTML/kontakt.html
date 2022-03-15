@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Atelier Vranova</title>
+    <link rel = "icon" href ="logo-OKO.png" type = "image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+    <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+    </head>
+    <body>
+    
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../Images/logo-OKO.png" class="logo"></img>
+        </div>
+        <ul class="navigation">
+            <li><a href="index.html">Architektura</a></li>
+            <li><a href="interier.html">Interiér</a></li>
+            <li><a href="umeni.html">Umění</a></li>
+            <li><a href="aboutme.html">O mně</a></li>
+            <li><a href="#" id="current">Kontakt</a></li>
+        </ul>
+    </header>
+    <hr>
+    <main>
+        <div class="container">
+            <p>Pokud máte nějaký dotaz tak nám neváhejte napsat na E-mail!</p>
+            <form>
+                <input type="text" name="name" class="text-input" placeholder="Jméno" class="form_field"><br>
+                <input type="text" name="surname" class="text-input" placeholder="Příjmení"><br>
+                <input type="text" name="email" class="text-input" placeholder="E-mail"><br>
+                <textarea name="zprava" rows="5" cols="97" placeholder="Vaše zpráva"></textarea><br>
+                <button type="submit" class="button">Odeslat</button>
+            </form> 
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <ul class="flex-container">
+            <li class="flex-item"><img src="../Images/logo-OKO.png" class="logo" style="width: 250px;"></img></li>
+            <li class="flex-item">
+                <h3>Kontakt</h3>
+                <p><a href="tel:+420 776 812 550">+420 776 812 550</a></p>
+                <p><a href="mailto:atelier@vranova.eu">atelier@vranova.eu</a></p>
+                <h3>Sdílejte nás na Facebooku!</h3>
+                <div class="fb-share-button" 
+                    data-href="https://www.your-domain.com/your-page.html" 
+                    data-layout="button_count">
+                </div>
+            </li>
+            <li class="flex-item">
+                <h3>Kanceláře</h3>
+                <p>Bubenské nábřeží 705/8, Praha 7 - <strong>Praha</strong></p>
+                <p>Čichnova 385/16, Brno-Komín - <strong>Brno</strong></p>
+            </li>
+        </ul>
+    </footer>
+</body>
